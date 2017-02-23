@@ -2,6 +2,8 @@
 
 This is sometimes called timeago or relative time.
 
+![oc-timeago](oc-timeago.png "oc-timeago")
+
 ```bash
 ➜ oc-hub git:(master) ✗ oc dev . 3030
 ```
