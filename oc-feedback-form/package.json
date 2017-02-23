@@ -1,0 +1,25 @@
+{
+  "name": "oc-feedback-form",
+  "description": "This example shows how to make an HTTP POST request w/ OpenComponents.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "TODO"
+  },
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.html",
+        "type": "handlebars"
+      },
+      "static": [
+        "public"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+div, input, textarea {
+  margin: 1em;
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+}
+
+input[type='text'] {
+  width: 15em;
+}
+
+#span-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
