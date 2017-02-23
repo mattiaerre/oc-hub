@@ -1,0 +1,33 @@
+{
+  "name": "oc-with-react",
+  "description": "oc-with-react",
+  "version": "1.0.0",
+  "repository": "https://github.com/mattiaerre/oc-with-react.git",
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.html",
+        "type": "handlebars"
+      },
+      "static": [
+        "public"
+      ]
+    }
+  },
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-input-box-done-typing": "^2.2.1",
+    "webpack": "^2.2.1"
+  }
+}
