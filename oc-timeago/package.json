@@ -2,7 +2,10 @@
   "name": "oc-timeago",
   "description": "This is sometimes called timeago or relative time.",
   "version": "1.0.0",
-  "repository": "TODO",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattiaerre/oc-hub/tree/master/oc-timeago"
+  },
   "author": {
     "name": "Mattia Richetto",
     "email": "mattia.richetto@gmail.com"
@@ -22,7 +25,7 @@
         "example": "2016-02-22",
         "description": "The start date as string in a YYYY-MM-DD format"
       },
-      "end":{
+      "end": {
         "type": "string",
         "mandatory": false,
         "example": "2017-02-22",
