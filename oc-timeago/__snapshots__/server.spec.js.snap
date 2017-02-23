@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`w/ "end" 1`] = `
+Object {
+  "timeago": "a month ago",
+}
+`;
+
+exports[`w/o "end" 1`] = `
+Object {
+  "timeago": "a month ago",
+}
+`;

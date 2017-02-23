@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "latest",
+    "react",
+    "stage-1"
+  ],
+  "plugins": [
+    "transform-async-to-generator"
+  ]
+}

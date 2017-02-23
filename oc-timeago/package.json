@@ -1,0 +1,40 @@
+{
+  "name": "oc-timeago",
+  "description": "This is sometimes called timeago or relative time.",
+  "version": "1.0.0",
+  "repository": "TODO",
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.html",
+        "type": "handlebars"
+      }
+    },
+    "parameters": {
+      "start": {
+        "type": "string",
+        "mandatory": true,
+        "example": "2016-02-22",
+        "description": "The start date as string in a YYYY-MM-DD format"
+      },
+      "end":{
+        "type": "string",
+        "mandatory": false,
+        "example": "2017-02-22",
+        "description": "The end date as string in a YYYY-MM-DD format"
+      }
+    }
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^19.0.1",
+    "moment": "^2.17.1"
+  }
+}

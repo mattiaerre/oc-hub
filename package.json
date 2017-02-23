@@ -1,0 +1,38 @@
+{
+  "name": "oc-hub",
+  "version": "1.0.0",
+  "description": "This repository has been created as a central hub for all the Open Components built by Mattia Richetto.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattiaerre/oc-hub.git"
+  },
+  "keywords": [
+    "oc",
+    "open",
+    "components",
+    "opencomponents",
+    "open components",
+    "hub"
+  ],
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattiaerre/oc-hub/issues"
+  },
+  "homepage": "https://github.com/mattiaerre/oc-hub#readme",
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
+  }
+}
