@@ -34,5 +34,8 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.0"
+  },
+  "scripts": {
+    "oc:registry": "oc dev . 3030"
   }
 }
