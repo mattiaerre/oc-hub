@@ -36,6 +36,6 @@
     "eslint-plugin-react": "^6.10.0"
   },
   "scripts": {
-    "oc:registry": "oc dev . 3030"
+    "start": "oc dev . 3030"
   }
 }
