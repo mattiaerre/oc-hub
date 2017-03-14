@@ -1,6 +1,8 @@
-(($) => {
-  const options = $('#script-index').data('options');
-  $('#button-submit').click(() => {
+'use strict';
+
+(function ($) {
+  var options = $('#script-index').data('options');
+  $('#button-submit').click(function () {
     $.ajax({
       type: 'POST',
       url: options.baseUrl,
@@ -15,14 +17,16 @@
           }
         }]
       },
-      beforeSend: (xhr) => { xhr.setRequestHeader('Accept', 'application/vnd.oc.unrendered+json'); },
-      success: (data) => {
-        const { status, response } = data[0];
+      beforeSend: function beforeSend(xhr) {
+        xhr.setRequestHeader('Accept', 'application/vnd.oc.unrendered+json');
+      },
+      success: function success(data) {
+        var _data$ = data[0],
+            status = _data$.status,
+            response = _data$.response;
+
         if (status === 200) {
-          const message =
-            `Dear <span id="span-name">${response.data.params.name}</span>,
-            thank you for your valuable feedback!
-            <a href="">↻</a>`;
+          var message = 'Dear <span id="span-name">' + response.data.params.name + '</span>,\n            thank you for your valuable feedback!\n            <a href="">\u21BB</a>';
           $('#div-message').html(message);
           $('#form-feedback').hide();
         }
