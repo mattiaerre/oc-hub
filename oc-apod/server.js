@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 export const data = (context, callback) => {
-  const apiKey = context.params.apiKey || 'DEMO_KEY';
+  const apiKey = context.params.apiKey;
 
   const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
   fetch(url)

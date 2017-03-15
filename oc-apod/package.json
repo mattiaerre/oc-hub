@@ -2,13 +2,28 @@
   "name": "oc-apod",
   "description": "TODO",
   "version": "1.0.0",
-  "repository": "TODO",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattiaerre/oc-hub/tree/master/oc-apod"
+  },
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
   "oc": {
     "files": {
       "data": "server.js",
       "template": {
         "src": "template.jade",
         "type": "jade"
+      }
+    },
+    "parameters": {
+      "apiKey": {
+        "type": "string",
+        "mandatory": true,
+        "example": "DEMO_KEY",
+        "description": "The NASA Open APIs key"
       }
     }
   },
