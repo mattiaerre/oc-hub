@@ -2,7 +2,7 @@
   "name": "oc-with-react",
   "description": "oc-with-react",
   "version": "1.0.0",
-  "repository": "https://github.com/mattiaerre/oc-with-react.git",
+  "repository": "https://github.com/mattiaerre/oc-hub/tree/master/oc-with-react",
   "author": {
     "name": "Mattia Richetto",
     "email": "mattia.richetto@gmail.com"
