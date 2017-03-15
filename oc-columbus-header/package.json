@@ -1,0 +1,36 @@
+{
+  "name": "oc-columbus-header",
+  "description": "A header for a website with logo and title",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattiaerre/oc-hub/tree/master/oc-columbus-header"
+  },
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.jade",
+        "type": "jade"
+      }
+    },
+    "parameters": {
+      "title": {
+        "type": "string",
+        "mandatory": true,
+        "example": "Instagram",
+        "description": "The main title"
+      },
+      "logoUrl": {
+        "type": "string",
+        "mandatory": true,
+        "example": "http://www.uidownload.com/files/722/15/621/facebook-instagram-instagram-2016-instagram-logo-new-new-instagram-icon.png",
+        "description": "The logo's absolute url"
+      }
+    }
+  }
+}
