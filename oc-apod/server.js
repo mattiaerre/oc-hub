@@ -12,6 +12,7 @@ export const data = (context, callback) => {
       return response.json();
     })
     .then((json) => {
+      json.url = json.url.replace('http://', '//').replace('https://', '//'); // eslint-disable-line no-param-reassign
       callback(null, json);
     })
     .catch((error) => {
