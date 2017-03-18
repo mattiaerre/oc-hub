@@ -10,10 +10,10 @@ const App = () => (
       placeholder="Start typing ..."
       defaultValue="lon"
       autoComplete="on"
-      onChange={(value) => { console.log('onChange:', value); } }
-      doneTyping={(value) => { console.log('doneTyping:', value); } }
+      onChange={(value) => { console.log('onChange:', value); }}
+      doneTyping={(value) => { console.log('doneTyping:', value); }}
       doneTypingInterval={2000}
-      />
+    />
   </div>
 );
 

@@ -20,14 +20,18 @@
     }
   },
   "scripts": {
+    "postinstall": "yarn webpack -- -p",
     "webpack": "webpack"
   },
   "dependencies": {
-    "babel-core": "^6.23.1",
-    "babel-loader": "^6.3.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-input-box-done-typing": "^2.2.1",
-    "webpack": "^2.2.1"
+    "react-input-box-done-typing": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "webpack": "^2.2.1",
+    "yarn": "^0.21.3"
   }
 }
