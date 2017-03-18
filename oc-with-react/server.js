@@ -1,3 +1,3 @@
-module.exports.data = function (context, callback) {
+module.exports.data = (context, callback) => {
   callback(null, { staticPath: context.staticPath });
 };

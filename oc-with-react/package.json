@@ -11,8 +11,8 @@
     "files": {
       "data": "server.js",
       "template": {
-        "src": "template.html",
-        "type": "handlebars"
+        "src": "template.jade",
+        "type": "jade"
       },
       "static": [
         "public"
