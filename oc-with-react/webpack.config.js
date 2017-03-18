@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './client/index.js',
+  entry: './src/index.js',
   output: {
     filename: 'bundle.js',
     path: path.join(__dirname, 'public/javascripts')
@@ -11,7 +11,7 @@ module.exports = {
       {
         test: /\.jsx?$/,
         loaders: ['babel-loader'],
-        include: path.join(__dirname, 'client')
+        include: path.join(__dirname, 'src')
       }]
   }
 };
