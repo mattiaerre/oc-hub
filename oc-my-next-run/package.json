@@ -1,6 +1,6 @@
 {
   "name": "oc-my-next-run",
-  "description": "When from where and what kind of run is going to be my next one.",
+  "description": "When, from where and what is going to be my next run.",
   "version": "1.0.0",
   "repository": {
     "type": "git",
