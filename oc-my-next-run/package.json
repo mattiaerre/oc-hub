@@ -20,13 +20,21 @@
       "static": [
         "public"
       ]
+    },
+    "parameters": {
+      "id": {
+        "type": "string",
+        "mandatory": true,
+        "example": "2017-03-19",
+        "description": "The id of the run to display"
+      }
     }
   },
   "dependencies": {
     "moment": "^2.18.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "styled-components": "2.0.0-7"
+    "styled-components": "next"
   },
   "devDependencies": {
     "jest": "^19.0.2",

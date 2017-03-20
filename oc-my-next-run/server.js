@@ -1,20 +1,12 @@
 const React = require('react');
 const { renderToString } = require('react-dom/server');
+const { styleSheet } = require('styled-components');
 
 const App = require('./src/App').default;
 const runs = require('./package.json').runs;
 
-const getNextRun = () => {
-  let run;
-  Object.keys(runs).sort().forEach((key, index, data) => {
-    // take the last element
-    if (index === (data.length - 1)) { run = runs[key]; }
-  });
-  return run;
-};
-
 export const data = (context, callback) => {
-  const run = getNextRun();
+  const run = runs[context.params.id];
   const model = {
     twitterUsername: 'mattiaerre',
     when: new Date(...run['date-time']),
@@ -25,9 +17,11 @@ export const data = (context, callback) => {
   };
   const props = { model };
   const app = renderToString(<App {...props} />);
+  const css = styleSheet.getCSS();
   callback(null, {
     app,
     model,
+    css,
     staticPath: context.staticPath
   });
 };
