@@ -1,9 +1,10 @@
 const fetch = require('node-fetch');
+const makeModel = require('./make-model');
 
 export const data = (context, callback) => {
   const apiKey = context.params.apiKey;
-
   const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
+
   fetch(url)
     .then((response) => {
       if (response.status !== 200) {
@@ -12,8 +13,7 @@ export const data = (context, callback) => {
       return response.json();
     })
     .then((json) => {
-      json.url = json.url.replace('http://', '//').replace('https://', '//'); // eslint-disable-line no-param-reassign
-      callback(null, json);
+      callback(null, makeModel(json));
     })
     .catch((error) => {
       callback(null, error);
