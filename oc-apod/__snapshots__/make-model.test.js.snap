@@ -1,5 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`image to match snapshot 1`] = `
+Object {
+  "copyright": "Alyn Wallace Photography",
+  "date": "2017-03-20",
+  "explanation": "Yes, but can your tree do this?  Pictured is a visual coincidence between the dark branches of a nearby tree and bright glow of a distant aurora. The beauty of the aurora -- combined with how it seemed to mimic a tree right nearby -- mesmerized the photographer to such a degree that he momentarily forgot to take pictures. When viewed at the right angle, it seemed that this tree had aurora for leaves! Fortunately, before the aurora morphed into a different overall shape, he came to his senses and capture the awe-inspiring momentary coincidence.  Typically triggered by solar explosions, aurora are caused by high energy electrons impacting the Earth's atmosphere around 150 kilometers up.  The unusual Earth-sky collaboration was witnessed earlier this month in Iceland.    Follow APOD on: Facebook,  Google Plus,  Instagram, or Twitter",
+  "hdurl": "http://apod.nasa.gov/apod/image/1703/AuroraTree_Wallace_2048.jpg",
+  "media_type": "image",
+  "service_version": "v1",
+  "style": "background-image: url(//apod.nasa.gov/apod/image/1703/AuroraTree_Wallace_960.jpg);",
+  "title": "The Aurora Tree",
+  "url": "//apod.nasa.gov/apod/image/1703/AuroraTree_Wallace_960.jpg",
+}
+`;
+
 exports[`video to match snapshot 1`] = `
 Object {
   "date": "2017-03-20",
