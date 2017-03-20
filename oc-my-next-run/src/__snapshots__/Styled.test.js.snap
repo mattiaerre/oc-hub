@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title 1`] = `
+
+
+.kbYEP {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+<h1
+  className="sc-bdVaJa kbYEP"
+>
+  Hello from oc-my-next-run Title
+</h1>
+`;
+
+exports[`Wrapper 1`] = `
+
+
+.bOYEsa {
+  padding: 2em;
+  background: floralwhite;
+  font-family: monospace;
+  border: 1px solid grey;
+}
+
+<section
+  className="sc-bwzfXH bOYEsa"
+>
+  Hello from oc-my-next-run Wrapper
+</section>
+`;

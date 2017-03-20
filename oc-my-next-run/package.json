@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "jest": "^19.0.2",
+    "jest-styled-components": "^1.0.0",
     "react-test-renderer": "^15.4.2",
     "webpack": "^2.2.1"
   },
@@ -78,5 +79,8 @@
         "Stretch."
       ]
     }
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
