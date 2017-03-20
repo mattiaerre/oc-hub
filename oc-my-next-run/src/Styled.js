@@ -7,7 +7,7 @@ export const Title = styled.h1`
 
 export const Wrapper = styled.section`
   padding: 2em;
-  background: papayawhip;
+  background: floralwhite;
   font-family: monospace;
   border: 1px solid grey;
 `;
