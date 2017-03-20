@@ -20,14 +20,6 @@
       "static": [
         "public"
       ]
-    },
-    "parameters": {
-      "id": {
-        "type": "string",
-        "mandatory": true,
-        "example": "2017-03-19",
-        "description": "The id of the run to display"
-      }
     }
   },
   "dependencies": {
@@ -46,6 +38,22 @@
     "test": "jest"
   },
   "runs": {
+    "2017-03-26": {
+      "date-time": [
+        2017,
+        2,
+        26,
+        6,
+        15,
+        0
+      ],
+      "google-maps-short-url": "https://goo.gl/maps/dXFaTeBvqGL2",
+      "note": [
+        "Race a Half Marathon or time trial.",
+        "Cool down, 5 to 10 minutes.",
+        "Stretch."
+      ]
+    },
     "2017-03-19": {
       "date-time": [
         2017,
