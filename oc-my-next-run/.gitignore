@@ -1,0 +1,5 @@
+_package
+coverage
+bundle.js
+package.tar.gz
+node_modules

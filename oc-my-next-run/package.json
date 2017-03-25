@@ -1,0 +1,86 @@
+{
+  "name": "oc-my-next-run",
+  "description": "When, from where and what is going to be my next run.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattiaerre/oc-hub/tree/master/oc-my-next-run"
+  },
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.jade",
+        "type": "jade"
+      },
+      "static": [
+        "public"
+      ]
+    },
+    "parameters": {
+      "id": {
+        "type": "string",
+        "mandatory": true,
+        "example": "2017-03-19",
+        "description": "The id of the run to display"
+      }
+    }
+  },
+  "dependencies": {
+    "moment": "^2.18.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "styled-components": "next"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "jest-styled-components": "^1.0.0",
+    "react-test-renderer": "^15.4.2",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "bundle": "webpack",
+    "test": "jest"
+  },
+  "runs": {
+    "2017-03-26": {
+      "date-time": [
+        2017,
+        2,
+        26,
+        6,
+        15,
+        0
+      ],
+      "google-maps-short-url": "https://goo.gl/maps/dXFaTeBvqGL2",
+      "note": [
+        "Race a Half Marathon or time trial.",
+        "Cool down, 5 to 10 minutes.",
+        "Stretch."
+      ]
+    },
+    "2017-03-19": {
+      "date-time": [
+        2017,
+        2,
+        19,
+        9,
+        15,
+        0
+      ],
+      "google-maps-short-url": "https://goo.gl/maps/3i6YF36SEPH2",
+      "note": [
+        "Run, easy pace, 165 minutes.",
+        "Cool down, 5 to 10 minutes.",
+        "Stretch."
+      ]
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
