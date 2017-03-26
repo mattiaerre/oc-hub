@@ -1,8 +1,12 @@
 {
   "name": "oc-social-media-buttons",
-  "description": "",
+  "description": "TODO",
   "version": "1.0.0",
-  "repository": "",
+  "repository": "TBD",
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
   "oc": {
     "files": {
       "data": "server.js",
@@ -11,5 +15,10 @@
         "type": "jade"
       }
     }
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "styled-components": "next"
   }
 }
