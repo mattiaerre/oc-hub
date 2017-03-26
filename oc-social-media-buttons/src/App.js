@@ -11,7 +11,6 @@ const data = [
 const Ul = styled.ul`
   list-style-type: none;
   display: flex;
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   flex-wrap: wrap;
 `;
 

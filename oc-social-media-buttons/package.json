@@ -1,8 +1,11 @@
 {
   "name": "oc-social-media-buttons",
-  "description": "TODO",
+  "description": "The list of my social media; this component is used in https://mattiaerre.github.io's footer",
   "version": "1.0.0",
-  "repository": "TBD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattiaerre/oc-hub/tree/master/oc-social-media-buttons"
+  },
   "author": {
     "name": "Mattia Richetto",
     "email": "mattia.richetto@gmail.com"
