@@ -5,11 +5,18 @@ const { styleSheet } = require('styled-components');
 const App = require('./src/App').default;
 const runs = require('./package.json').runs;
 
+const makeWhen = (dateTime) => {
+  if (typeof dateTime === 'object') {
+    return new Date(...dateTime);
+  }
+  return new Date(dateTime);
+};
+
 export const data = (context, callback) => {
   const run = runs[context.params.id];
   const model = {
     twitterUsername: 'mattiaerre',
-    when: new Date(...run['date-time']),
+    when: makeWhen(run['date-time']),
     where: {
       googleMapsShortUrl: run['google-maps-short-url']
     },

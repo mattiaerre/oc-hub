@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`viewModel to match snapshot 1`] = `
+exports[`2017-03-19 viewModel to match snapshot 1`] = `
 Object {
   "app": "<section class=\\"sc-bwzfXH bOYEsa\\" data-reactroot=\\"\\" data-reactid=\\"1\\" data-react-checksum=\\"-676159848\\"><h1 class=\\"sc-bdVaJa kbYEP\\" data-reactid=\\"2\\">@mattiaerre&#x27;s next run</h1><p data-reactid=\\"3\\">March 19th 2017, 9:15:00 am</p><p data-reactid=\\"4\\"><a href=\\"https://goo.gl/maps/3i6YF36SEPH2\\" data-reactid=\\"5\\">https://goo.gl/maps/3i6YF36SEPH2</a></p><ul data-reactid=\\"6\\"><li data-reactid=\\"7\\">Run, easy pace, 165 minutes.</li><li data-reactid=\\"8\\">Cool down, 5 to 10 minutes.</li><li data-reactid=\\"9\\">Stretch.</li></ul></section>",
   "css": ".sc-bdVaJa {}.kbYEP {font-size: 1.5em;text-align: center;}.sc-bwzfXH {}.bOYEsa {padding: 2em;background: floralwhite;font-family: monospace;border: 1px solid grey;}",
@@ -12,6 +12,27 @@ Object {
     ],
     "twitterUsername": "mattiaerre",
     "when": 2017-03-19T16:15:00.000Z,
+    "where": Object {
+      "googleMapsShortUrl": "https://goo.gl/maps/3i6YF36SEPH2",
+    },
+  },
+  "staticPath": "/",
+}
+`;
+
+exports[`2017-04-09 viewModel to match snapshot 1`] = `
+Object {
+  "app": "<section class=\\"sc-bwzfXH bOYEsa\\" data-reactroot=\\"\\" data-reactid=\\"1\\" data-react-checksum=\\"-1723747973\\"><h1 class=\\"sc-bdVaJa kbYEP\\" data-reactid=\\"2\\">@mattiaerre&#x27;s next run</h1><p data-reactid=\\"3\\">April 9th 2017, 8:30:00 am</p><p data-reactid=\\"4\\"><a href=\\"https://goo.gl/maps/3i6YF36SEPH2\\" data-reactid=\\"5\\">https://goo.gl/maps/3i6YF36SEPH2</a></p><ul data-reactid=\\"6\\"><li data-reactid=\\"7\\">Run, easy pace, 135 minutes.</li><li data-reactid=\\"8\\">Run, marathon pace, 45 minutes.</li><li data-reactid=\\"9\\">Cool down, 5 to 10 minutes.</li><li data-reactid=\\"10\\">Stretch.</li></ul></section>",
+  "css": ".sc-bdVaJa {}.kbYEP {font-size: 1.5em;text-align: center;}.sc-bwzfXH {}.bOYEsa {padding: 2em;background: floralwhite;font-family: monospace;border: 1px solid grey;}",
+  "model": Object {
+    "note": Array [
+      "Run, easy pace, 135 minutes.",
+      "Run, marathon pace, 45 minutes.",
+      "Cool down, 5 to 10 minutes.",
+      "Stretch.",
+    ],
+    "twitterUsername": "mattiaerre",
+    "when": 2017-04-09T15:30:00.000Z,
     "where": Object {
       "googleMapsShortUrl": "https://goo.gl/maps/3i6YF36SEPH2",
     },

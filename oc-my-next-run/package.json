@@ -48,6 +48,16 @@
     "test": "jest"
   },
   "runs": {
+    "2017-04-09": {
+      "date-time": "2017-04-09T08:30:00-07:00",
+      "google-maps-short-url": "https://goo.gl/maps/3i6YF36SEPH2",
+      "note": [
+        "Run, easy pace, 135 minutes.",
+        "Run, marathon pace, 45 minutes.",
+        "Cool down, 5 to 10 minutes.",
+        "Stretch."
+      ]
+    },
     "2017-04-02": {
       "date-time": [
         2017,
