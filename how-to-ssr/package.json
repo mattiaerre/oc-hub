@@ -12,10 +12,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "debug": "^2.6.1",
-    "express": "^4.14.1",
+    "debug": "^2.6.3",
+    "express": "^4.15.2",
     "express-favicon-short-circuit": "^1.1.0",
-    "oc-client": "^2.1.1",
+    "oc-client": "^2.1.7",
     "pug": "^2.0.0-beta11"
   },
   "devDependencies": {
