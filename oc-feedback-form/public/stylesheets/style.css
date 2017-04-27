@@ -1,11 +1,11 @@
-div, input, textarea {
+#div-message div, #form-feedback input, #form-feedback textarea {
   margin: 1em;
   display: block;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1em;
 }
 
-input[type='text'] {
+#form-feedback input[type='text'] {
   width: 15em;
 }
 
