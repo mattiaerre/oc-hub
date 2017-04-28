@@ -1,6 +1,6 @@
 # oc-hub
 
-This repository has been created as a central hub for all the Open Components built by Mattia Richetto.
+This repository has been created as a central hub for all the OpenComponents built by Mattia Richetto.
 
 ## How to SSR
 
@@ -16,10 +16,10 @@ yarn start
 
 You should now have the OpenComponents registry running on **localhost:3030**
 
-Then open another iTerm tab and change directory to **oc-hub/**
+Then open another iTerm tab and change directory to **how-to-ssr/**
 
 ```bash
-cd how-to-ssr/
+cd oc-hub/how-to-ssr/
 yarn
 yarn start
 ```
