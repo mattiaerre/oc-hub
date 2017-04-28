@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/mattiaerre/oc-hub#readme",
   "scripts": {
+    "oc": "oc",
     "start": "oc dev . 3030"
   },
   "devDependencies": {
@@ -36,7 +37,9 @@
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.0",
-    "oc": "^0.36.16"
+    "eslint-plugin-react": "^6.10.0"
+  },
+  "dependencies": {
+    "oc": "0.36.16"
   }
 }
