@@ -1,7 +1,7 @@
 {
   "name": "oc-my-next-run",
   "description": "When, from where and what is going to be my next run.",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/mattiaerre/oc-hub/tree/master/oc-my-next-run"
@@ -48,6 +48,17 @@
     "test": "jest"
   },
   "runs": {
+    "2017-04-30": {
+      "date-time": "2017-04-30T08:30:00-07:00",
+      "google-maps-short-url": "https://goo.gl/maps/3i6YF36SEPH2",
+      "note": [
+        "Run, easy pace, 10 minutes.",
+        "Run, marathon pace, 50 minutes.",
+        "Run, easy pace, 10 minutes.",
+        "Cool down, 5 to 10 minutes.",
+        "Stretch."
+      ]
+    },
     "2017-04-23": {
       "date-time": "2017-04-23T08:30:00-07:00",
       "google-maps-short-url": "https://goo.gl/maps/3i6YF36SEPH2",

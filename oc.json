@@ -1,4 +1,11 @@
 {
+  "mocks": {
+    "plugins": {
+      "dynamic": {
+        "getTimezoneOffset": "./plugins/timezone-offset-mock.js"
+      }
+    }
+  },
   "registries": [
     "https://pink-pineapple.herokuapp.com/"
   ]
