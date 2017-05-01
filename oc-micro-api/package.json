@@ -1,0 +1,26 @@
+{
+  "name": "oc-micro-api",
+  "description": "oc-micro-api",
+  "version": "1.0.0-alpha.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattiaerre/oc-hub/tree/master/oc-micro-api"
+  },
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.jade",
+        "type": "jade"
+      },
+      "static": [
+        "public"
+      ]
+    },
+    "state": "experimental"
+  }
+}
