@@ -1,8 +1,15 @@
 {
   "name": "oc-micro-api",
-  "description": "",
-  "version": "1.0.0",
-  "repository": "",
+  "description": "oc-micro-api",
+  "version": "1.0.0-alpha.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattiaerre/oc-hub/tree/master/oc-micro-api"
+  },
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
   "oc": {
     "files": {
       "data": "server.js",
@@ -13,6 +20,7 @@
       "static": [
         "public"
       ]
-    }
+    },
+    "state": "experimental"
   }
 }
