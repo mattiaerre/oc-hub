@@ -1,0 +1,31 @@
+{
+  "name": "oc-ua-tracking-code",
+  "description": "oc-ua-tracking-code",
+  "version": "1.0.0-alpha.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattiaerre/oc-ua-tracking-code/tree/master/oc-micro-api"
+  },
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.html",
+        "type": "handlebars"
+      }
+    },
+    "parameters": {
+      "trackingId": {
+        "type": "string",
+        "mandatory": true,
+        "example": "UA-12345678-9",
+        "description": "The Google Analytics Tracking ID"
+      }
+    },
+    "state": "experimental"
+  }
+}
