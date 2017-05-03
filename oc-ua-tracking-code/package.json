@@ -1,7 +1,7 @@
 {
   "name": "oc-ua-tracking-code",
-  "description": "oc-ua-tracking-code",
-  "version": "1.0.0",
+  "description": "This is the Google Universal Analytics tracking code for a given Tracking ID.",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/mattiaerre/oc-ua-tracking-code/tree/master/oc-micro-api"
