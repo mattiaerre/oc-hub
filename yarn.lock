@@ -3523,9 +3523,9 @@ oc-template-jade@4.0.0:
   dependencies:
     jade "1.11.0"
 
-oc@^0.36.27:
-  version "0.36.27"
-  resolved "https://registry.yarnpkg.com/oc/-/oc-0.36.27.tgz#399822cf294ed550dd01d4f82f870990bed6ea78"
+oc@^0.37.0:
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/oc/-/oc-0.37.0.tgz#71202975596d1223500fe48e217cf36d0d269cf4"
   dependencies:
     accept-language-parser "1.1.2"
     async "1.5.2"
