@@ -48,6 +48,13 @@
     "test": "jest"
   },
   "runs": {
+    "2017-05-07": {
+      "date-time": "2017-05-07T07:45:00-07:00",
+      "google-maps-short-url": "https://goo.gl/maps/mRpU71QhR752",
+      "note": [
+        "RACE DAY! GOOD LUCK!"
+      ]
+    },
     "2017-04-30": {
       "date-time": "2017-04-30T08:30:00-07:00",
       "google-maps-short-url": "https://goo.gl/maps/3i6YF36SEPH2",
