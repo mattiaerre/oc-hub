@@ -9,5 +9,8 @@
     "comma-dangle": "off",
     "import/prefer-default-export": "off",
     "react/jsx-filename-extension": "off"
+  },
+  "globals": {
+    "requirejs": true
   }
 }
