@@ -1,5 +1,8 @@
-script(src="https://code.jquery.com/jquery-3.1.1.min.js")
-h1= title
-div!= timeago
-div!= feedback
-div!= react
+html
+  head
+    script(data-main="javascripts/main" src="javascripts/require.js")
+  body
+    h1= title
+    div!= timeago
+    div!= react
+    oc-component(href="https://pink-pineapple.herokuapp.com/oc-social-media-buttons/")
