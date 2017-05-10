@@ -5,4 +5,9 @@ html
     div!= timeago
     div!= react
     oc-component(href="https://pink-pineapple.herokuapp.com/oc-social-media-buttons/")
+    script.
+      window.oc = window.oc || {};
+      window.oc.cmd = window.oc.cmd || [];
+      window.oc.cmd.push(() => { console.log('Oh Noes!'); });
+      console.log('window.oc.cmd:', window.oc.cmd);
     script(data-main="javascripts/main" src="javascripts/require.js")

@@ -12,4 +12,6 @@ requirejs(['jquery', 'oc-client.min'], ($, ocClient) => {
   console.log('ocClient.renderedComponents:', ocClient.renderedComponents);
   console.log('ocClient.cmd:', ocClient.cmd);
   console.log('ocClient.require:', ocClient.require);
+
+  ocClient.cmd.push(() => { console.log('YATTA!'); });
 });
