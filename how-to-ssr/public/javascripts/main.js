@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 requirejs.config({
   paths: {
     jquery: 'https://code.jquery.com/jquery-3.2.1.min',
@@ -6,6 +8,8 @@ requirejs.config({
 });
 
 requirejs(['jquery', 'oc-client.min'], ($, ocClient) => {
-  console.log('ocClient:', ocClient); // eslint-disable-line no-console
-  console.log('ocClient.renderedComponents:', ocClient.renderedComponents); // eslint-disable-line no-console
+  console.log('ocClient:', ocClient);
+  console.log('ocClient.renderedComponents:', ocClient.renderedComponents);
+  console.log('ocClient.cmd:', ocClient.cmd);
+  console.log('ocClient.require:', ocClient.require);
 });
