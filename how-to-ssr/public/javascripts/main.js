@@ -7,7 +7,7 @@ requirejs.config({
   }
 });
 
-requirejs(['jquery', 'oc-client.min'], ($, ocClient) => {
+requirejs(['jquery', 'oc-client'], ($, ocClient) => {
   console.log('ocClient:', ocClient);
   console.log('ocClient.renderedComponents:', ocClient.renderedComponents);
   console.log('ocClient.cmd:', ocClient.cmd);
