@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`oc-require when dep doesn't need to be loaded, callback receives dep 1`] = `
+Array [
+  Array [
+    Object {
+      "love": "oc",
+    },
+  ],
+]
+`;
+
+exports[`oc-require when nameSpace not undefined and matches, callback receives dep 1`] = `
+Array [
+  Array [
+    Object {
+      "love": "oc",
+    },
+  ],
+]
+`;
+
+exports[`oc-require when nameSpace not undefined but doesn't match, callback receives undefined 1`] = `
+Array [
+  Array [
+    undefined,
+  ],
+]
+`;
+
+exports[`oc-require when nameSpace undefined, callback receives undefined 1`] = `
+Array [
+  Array [
+    undefined,
+  ],
+]
+`;
