@@ -2,7 +2,8 @@
   "presets": [
     "latest",
     "react",
-    "stage-1"
+    "stage-1",
+    "stage-3"
   ],
   "plugins": [
     "transform-async-to-generator"
