@@ -1,7 +1,7 @@
 {
   "name": "oc-micro-api",
   "description": "oc-micro-api",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/mattiaerre/oc-hub/tree/master/oc-micro-api"
