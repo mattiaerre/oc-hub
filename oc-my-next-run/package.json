@@ -1,7 +1,7 @@
 {
   "name": "oc-my-next-run",
   "description": "When, from where and what is going to be my next run.",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/mattiaerre/oc-hub/tree/master/oc-my-next-run"
