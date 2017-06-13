@@ -24,14 +24,14 @@
     "postinstall": "yarn bundle -- -p"
   },
   "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
     "react-input-box-done-typing": "^2.2.1"
   },
   "devDependencies": {
-    "babel-core": "^6.24.0",
-    "babel-loader": "^6.4.1",
-    "webpack": "^2.2.1",
-    "yarn": "^0.21.3"
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "webpack": "^2.6.1",
+    "yarn": "^0.24.5"
   }
 }

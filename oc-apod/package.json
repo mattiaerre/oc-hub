@@ -28,10 +28,10 @@
     }
   },
   "dependencies": {
-    "node-fetch": "^1.6.3"
+    "node-fetch": "^1.7.1"
   },
   "devDependencies": {
-    "jest": "^19.0.2"
+    "jest": "^20.0.4"
   },
   "scripts": {
     "test": "jest"

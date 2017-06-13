@@ -43,6 +43,13 @@
     "oc-info": "^1.1.0"
   },
   "dependencies": {
-    "oc": "^0.37.10"
+    "jest": "^20.0.4",
+    "moment": "^2.18.1",
+    "node-fetch": "^1.7.1",
+    "oc": "^0.37.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-input-box-done-typing": "^2.2.1",
+    "styled-components": "^2.0.0-15"
   }
 }
