@@ -1,7 +1,7 @@
 {
   "name": "oc-social-media-buttons",
   "description": "The list of my social media; this component is used in https://mattiaerre.github.io's footer",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/mattiaerre/oc-hub/tree/master/oc-social-media-buttons"
