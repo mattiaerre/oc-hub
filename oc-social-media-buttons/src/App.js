@@ -6,7 +6,8 @@ const data = [
   { className: 'icon-instagram', href: 'https://www.instagram.com/mattiaerre2012', text: '@mattiaerre2012' },
   { className: 'icon-github', href: 'https://github.com/mattiaerre', text: 'mattiaerre' },
   { className: 'icon-wordpress', href: 'https://mattiarichetto.wordpress.com', text: 'mattiarichetto' },
-  { className: 'icon-npm', href: 'https://www.npmjs.com/~mattiaerre', text: '@mattiaerre' }
+  { className: 'icon-npm', href: 'https://www.npmjs.com/~mattiaerre', text: '@mattiaerre' },
+  { className: 'icon-medium', href: 'https://medium.com/@mattiaerre', text: '@mattiaerre' }
 ];
 
 const Ul = styled.ul`
