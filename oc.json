@@ -2,7 +2,8 @@
   "mocks": {
     "plugins": {
       "dynamic": {
-        "getTimezoneOffset": "./plugins/timezone-offset-mock.js"
+        "getTimezoneOffset": "./plugins/timezone-offset-mock.js",
+        "getGeoIp": "./plugins/geo-ip-mock.js"
       }
     }
   },
