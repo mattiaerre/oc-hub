@@ -13,5 +13,12 @@ export const data = (context, callback) => {
     model.timezoneOffset = context.plugins.getTimezoneOffset();
   }
 
-  callback(null, model);
+  if (context.plugins.getGeoIp) {
+    return context.plugins.getGeoIp(context)
+      .then((geoIp) => {
+        model.geoIp = geoIp;
+        return callback(null, model);
+      });
+  }
+  return callback(null, model);
 };
